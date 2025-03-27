@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "num4",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/10_int_Uint.sol": "demo"
+			"contracts/10_int_Uint.sol": "demo2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/10_int_Uint.sol": {
-			"keccak256": "0x59ea4c01a9bb9e7b7dc1914301785bfd3fd84fcb9494ac11b4da58c871f9104d",
+			"keccak256": "0x93f56e286c91fc547e378a41a98f1ee76038acc66241c6a4be6f832b7aab1c62",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9ca2c2560f0812c4eb46c3eec365ce4d5dca2be85711db562b779d4fd7546f12",
-				"dweb:/ipfs/Qmc8meRkUjXSsnYZ8g5zuTyT8HYampaQTW3fXzSYcHgtAX"
+				"bzz-raw://6f5ff61ef70a5ff579ca3e961076460fd44d96a1e62238b8dac3b9192a3c6179",
+				"dweb:/ipfs/QmW1bbLAunmtYNANe8S862jbh5L5Y946cqQ6t33jNpxjDm"
 			]
 		}
 	},

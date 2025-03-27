@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/5_statevar.sol": "statevar"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5_statevar.sol": {
+			"keccak256": "0x45e9a24228887686574032356efc039084ef5c61a29f8ae653328821f0816a17",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d929b489e0e6c979e89807f87b02095c52ccd6e9764ab0f804ce1f7698bf35ad",
+				"dweb:/ipfs/QmadTHD2k6Vfw9jTRHeuJ3edwxmhfuL1U4u5dPEcMRw6cc"
+			]
+		}
+	},
+	"version": 1
+}

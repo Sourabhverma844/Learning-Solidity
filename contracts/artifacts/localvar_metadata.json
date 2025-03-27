@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "local",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/10_int_Uint.sol": "demo"
+			"contracts/6_localvar.sol": "localvar"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/10_int_Uint.sol": {
-			"keccak256": "0x59ea4c01a9bb9e7b7dc1914301785bfd3fd84fcb9494ac11b4da58c871f9104d",
+		"contracts/6_localvar.sol": {
+			"keccak256": "0x4c133624b9953cf39601595dbc9bcbdf537bbd4c64ac2643bbd77e806d07f714",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9ca2c2560f0812c4eb46c3eec365ce4d5dca2be85711db562b779d4fd7546f12",
-				"dweb:/ipfs/Qmc8meRkUjXSsnYZ8g5zuTyT8HYampaQTW3fXzSYcHgtAX"
+				"bzz-raw://b657237677a2fba117a22d6178a7563c4cffbd27951a9fe5b238fac08d6e4168",
+				"dweb:/ipfs/QmYzd9HY6Ftzrj4pTxn7Z2Nw5QMqdqwgQCKjBqqJ7RUjXd"
 			]
 		}
 	},
