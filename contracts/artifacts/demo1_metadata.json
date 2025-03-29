@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "f1",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,12 +15,12 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num1",
+				"name": "f2",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -28,33 +28,33 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num2",
+				"name": "f3",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num3",
+				"name": "f4",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/10_int_Uint.sol": "demo1"
+			"contracts/14_modifiers.sol": "demo1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/10_int_Uint.sol": {
-			"keccak256": "0x93f56e286c91fc547e378a41a98f1ee76038acc66241c6a4be6f832b7aab1c62",
+		"contracts/14_modifiers.sol": {
+			"keccak256": "0x31278b590232fd68021f24dc69477bce867e7d71daf82d101782de7ecbdc9c82",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6f5ff61ef70a5ff579ca3e961076460fd44d96a1e62238b8dac3b9192a3c6179",
-				"dweb:/ipfs/QmW1bbLAunmtYNANe8S862jbh5L5Y946cqQ6t33jNpxjDm"
+				"bzz-raw://d6d8990ea45e9ac946997d7c2b8486e81095328c095c25315dd6bde5227028d1",
+				"dweb:/ipfs/QmR6WLpdx7PrQd13jQksc84TVDJr6ysrQ8kBmBpQu4wC9U"
 			]
 		}
 	},

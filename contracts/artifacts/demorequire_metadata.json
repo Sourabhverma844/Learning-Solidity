@@ -6,52 +6,38 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "f1",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "a",
 						"type": "uint256"
+					}
+				],
+				"name": "iszero_using_ifelse",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "f2",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "a",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "f3",
+				"name": "iszero_using_require",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "f4",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
@@ -71,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/14_modifiers.sol": "demo2"
+			"contracts/13_require.sol": "demorequire"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/14_modifiers.sol": {
-			"keccak256": "0x31278b590232fd68021f24dc69477bce867e7d71daf82d101782de7ecbdc9c82",
+		"contracts/13_require.sol": {
+			"keccak256": "0x81697c90d3bc9504d5e63a4bae843ddf9fbb741c64ba8b7012f71a76fba93b1c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d6d8990ea45e9ac946997d7c2b8486e81095328c095c25315dd6bde5227028d1",
-				"dweb:/ipfs/QmR6WLpdx7PrQd13jQksc84TVDJr6ysrQ8kBmBpQu4wC9U"
+				"bzz-raw://78be64dfccffc63a8fa14c2be4354380341f57b07ffe27c67a3a58e2e929ef93",
+				"dweb:/ipfs/QmXbyEZPViEvbdmpfHg81gf6JCBwHRWGXWVK2EhT5SHuat"
 			]
 		}
 	},

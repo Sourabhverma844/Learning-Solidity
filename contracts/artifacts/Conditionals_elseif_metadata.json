@@ -6,47 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "f1",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "f2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "f3",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "f4",
+				"name": "checking",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -71,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/14_modifiers.sol": "demo2"
+			"contracts/11_ifelse.sol": "Conditionals_elseif"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/14_modifiers.sol": {
-			"keccak256": "0x31278b590232fd68021f24dc69477bce867e7d71daf82d101782de7ecbdc9c82",
+		"contracts/11_ifelse.sol": {
+			"keccak256": "0x421294fdc8da1d33f488d836166285d52c4b49778a00e6f00c5614c7b5f58edb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d6d8990ea45e9ac946997d7c2b8486e81095328c095c25315dd6bde5227028d1",
-				"dweb:/ipfs/QmR6WLpdx7PrQd13jQksc84TVDJr6ysrQ8kBmBpQu4wC9U"
+				"bzz-raw://8b95bb57eeb04a954d36c23383708ce941e5b73c95b9b242b52edfbacc846dc7",
+				"dweb:/ipfs/QmaPH2Prjnup99VdK2ouPtyPjeU3h7NyvnEP8bVkFPNJt6"
 			]
 		}
 	},

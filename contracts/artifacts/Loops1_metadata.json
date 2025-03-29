@@ -7,15 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "addr",
+				"name": "whileLoop",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/15_Address.sol": "demo"
+			"contracts/10_Loops.sol": "Loops1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/15_Address.sol": {
-			"keccak256": "0x69a34f0b360ef2449b5afa4f6ea05495b30decd098ea022e9a1159370ee14c70",
+		"contracts/10_Loops.sol": {
+			"keccak256": "0x89487bf946d2ca6605ddc6b6e13850053b95aaf9a008bbd660c8c7076f086672",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c575e2006423c91674d8b3e0278eb4292ec7d960b6a7c8e76b8880842463f99b",
-				"dweb:/ipfs/QmeHY1TdBdzeDwcJVuLSgmKmxy8RwFDA3oJn6UtKv2GdVt"
+				"bzz-raw://97b869eb3823a17d011ea9780cab48edcd9eeabc7313709228c04a34a9e73d79",
+				"dweb:/ipfs/Qma1f7i953f5PWkYPvcnYPvrvYkwZEQk9oQ3ftVbYFMpG5"
 			]
 		}
 	},
