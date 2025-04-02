@@ -6,13 +6,93 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "addr",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_result",
+						"type": "bool"
+					}
+				],
+				"name": "insert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "records",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "result",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "returnValue",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "roll",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "result",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct demo.Student",
 						"name": "",
-						"type": "address"
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +112,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/15_Address.sol": "demo"
+			"contracts/24_map_Vs_struct.sol": "demo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +126,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/15_Address.sol": {
-			"keccak256": "0x69a34f0b360ef2449b5afa4f6ea05495b30decd098ea022e9a1159370ee14c70",
+		"contracts/24_map_Vs_struct.sol": {
+			"keccak256": "0x589898d4d7cba49e83b6e8c42f91e94be9f835cf946c07e8f844530e7c1d3532",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c575e2006423c91674d8b3e0278eb4292ec7d960b6a7c8e76b8880842463f99b",
-				"dweb:/ipfs/QmeHY1TdBdzeDwcJVuLSgmKmxy8RwFDA3oJn6UtKv2GdVt"
+				"bzz-raw://c873131ce53f8bda12c226c285657d626d815616b1df93c29b0931b90c14ad58",
+				"dweb:/ipfs/Qmb7TeayDHuJvQ2HTfLXucqqshkkrbr7kvCJRFfuNZbQNN"
 			]
 		}
 	},

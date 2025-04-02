@@ -1,12 +1,12 @@
 {
-	"id": "fccd0a9889eb371a127863776fd1d9cb",
+	"id": "070ee0e678f6f1afc3faed32ce2af125",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.29",
 	"solcLongVersion": "0.8.29+commit.ab55807c",
 	"input": {
 		"language": "Solidity",
 		"sources": {
-			"contracts/16_reference_data_type.sol": {
+			"contracts/artifacts/22_Enum.sol": {
 				"content": ""
 			}
 		},
@@ -43,12 +43,12 @@
 			{
 				"component": "general",
 				"errorCode": "1878",
-				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> contracts/16_reference_data_type.sol\n\n",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> contracts/artifacts/22_Enum.sol\n\n",
 				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
 				"severity": "warning",
 				"sourceLocation": {
 					"end": -1,
-					"file": "contracts/16_reference_data_type.sol",
+					"file": "contracts/artifacts/22_Enum.sol",
 					"start": -1
 				},
 				"type": "Warning"
@@ -56,21 +56,21 @@
 			{
 				"component": "general",
 				"errorCode": "3420",
-				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.29;\"\n--> contracts/16_reference_data_type.sol\n\n",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.29;\"\n--> contracts/artifacts/22_Enum.sol\n\n",
 				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.29;\"",
 				"severity": "warning",
 				"sourceLocation": {
 					"end": -1,
-					"file": "contracts/16_reference_data_type.sol",
+					"file": "contracts/artifacts/22_Enum.sol",
 					"start": -1
 				},
 				"type": "Warning"
 			}
 		],
 		"sources": {
-			"contracts/16_reference_data_type.sol": {
+			"contracts/artifacts/22_Enum.sol": {
 				"ast": {
-					"absolutePath": "contracts/16_reference_data_type.sol",
+					"absolutePath": "contracts/artifacts/22_Enum.sol",
 					"exportedSymbols": {},
 					"id": 1,
 					"nodeType": "SourceUnit",
