@@ -7,7 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "BalanceOfContract",
+				"name": "CallerAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnBlockTimestamp",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -16,13 +29,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "SendEtherToContract",
-				"outputs": [],
-				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/28_Transferring_Eth_To_Contract.sol": "demo"
+			"contracts/artifacts/27_Global_Variable.sol": "demo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/28_Transferring_Eth_To_Contract.sol": {
-			"keccak256": "0xf7db11fe4057f35c9dbe551df6a1e1c85cbcde86744dde26f9d34a381bd98047",
+		"contracts/artifacts/27_Global_Variable.sol": {
+			"keccak256": "0x5ef0bc53a1a2c687da7d130e49a8cfcbbbb3a26f041fc39c8e992c38d02a0387",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://67636190b1ccd8100410f3edaadeae118391de216d844bb4257b635656433c56",
-				"dweb:/ipfs/QmbiZYpBL8Y7ugeYZgHpam2P15P9kVtqUPVACuRF2FochW"
+				"bzz-raw://d5dd94183d6eeae06d9f606a1926452bb45e87fdc79b45326bb79d9e2bb3caf6",
+				"dweb:/ipfs/QmVWKe2GTqnGfbsfRCFwDo8Xi1XR9MSMDv5vUnoqRnS8SV"
 			]
 		}
 	},
