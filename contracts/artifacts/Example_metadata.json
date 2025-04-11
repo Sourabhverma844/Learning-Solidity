@@ -33,7 +33,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/29_ALU1.sol": "demo"
+			"contracts/29_ALU1.sol": "Example"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -48,11 +48,11 @@
 	},
 	"sources": {
 		"contracts/29_ALU1.sol": {
-			"keccak256": "0x249654c5de867b579ad553a5dc04c1b80ef8c6f2d78921471f66dd15e8a4f48f",
+			"keccak256": "0xcdbe957cde42a9e77c8ccab74a7dd962c7353201c9052c397cb830b0eceefa5d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b282966d47038bc4499d6000e3d9238ef9f53ac85bb6365c76b19614d583acfb",
-				"dweb:/ipfs/QmP9FhzxrVe1GXWfXz4WCajNYyNHuQsK39jvoRacZUzUov"
+				"bzz-raw://820652986a19f938d7e55cd53ca8f08cfc09b70de1fe180afc55f76d4a021952",
+				"dweb:/ipfs/QmU2P6xmaWunWgC2Rdxo4DkezEH5iKLYzSboMeUzkfokjY"
 			]
 		}
 	},

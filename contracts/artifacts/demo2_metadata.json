@@ -9,61 +9,21 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "index",
+						"name": "x",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "item",
+						"name": "y",
 						"type": "uint256"
 					}
 				],
-				"name": "insert",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "returnAllElements",
-				"outputs": [
-					{
-						"internalType": "uint256[3]",
-						"name": "",
-						"type": "uint256[3]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
-					}
-				],
-				"name": "returnarr",
+				"name": "sum",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -88,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/16_fixed_array.sol": "demo2"
+			"contracts/29_ALU1.sol": "demo2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -102,12 +62,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/16_fixed_array.sol": {
-			"keccak256": "0xbe200b2d19e2d10cdbbc47e0f83dda5a6387b9283db7242be7048e447d81e4c2",
+		"contracts/29_ALU1.sol": {
+			"keccak256": "0xeb9955ed79fc20a833bf0ccfe6a73ccf6fccddc8bff9b2a680fbd95b918ceeb3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://11bbc51458e3a35f05609893a9968a173c32cea9f87e12d238eef5a2365f2274",
-				"dweb:/ipfs/QmcnrREf5pPLJ1HUYioWFb79VmsheWedzTGxB7We7rQ24k"
+				"bzz-raw://7214a51f76f1ec8fd7f3fadd29692c4dc744e7c1b8c9f6919ca21ff345d29eec",
+				"dweb:/ipfs/QmZC4yNAK8JebeAnQ952J2HkxVFJGXqDJYpsLsDSVMyN3w"
 			]
 		}
 	},

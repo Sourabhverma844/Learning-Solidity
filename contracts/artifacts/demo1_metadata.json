@@ -6,48 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "_arr",
-						"type": "uint256[]"
-					}
-				],
-				"name": "insertArr",
+				"inputs": [],
+				"name": "example3",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "myarr",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
+				"name": "example4",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -64,7 +33,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/19_data_Locations2.sol": "demo1"
+			"contracts/29_ALU1.sol": "demo1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -78,12 +47,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/19_data_Locations2.sol": {
-			"keccak256": "0xa3512a18a66ef4e57b382911002a8730d543bcb9e85b4b6ba2e588045d75e8a3",
+		"contracts/29_ALU1.sol": {
+			"keccak256": "0xeb9955ed79fc20a833bf0ccfe6a73ccf6fccddc8bff9b2a680fbd95b918ceeb3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://643c2dea09fa7710604e4413f52428a0e422d8172247a790861c6961b01cf4d9",
-				"dweb:/ipfs/QmW63Xe17Dr8dCAnCWFjVSydDfm3GqG5mnRPtdKm6huA3M"
+				"bzz-raw://7214a51f76f1ec8fd7f3fadd29692c4dc744e7c1b8c9f6919ca21ff345d29eec",
+				"dweb:/ipfs/QmZC4yNAK8JebeAnQ952J2HkxVFJGXqDJYpsLsDSVMyN3w"
 			]
 		}
 	},
