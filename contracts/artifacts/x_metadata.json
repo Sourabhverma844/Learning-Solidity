@@ -6,15 +6,15 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "pay",
-				"outputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_otherContract",
+						"type": "address"
+					}
+				],
 				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"type": "constructor"
 			}
 		],
 		"devdoc": {
@@ -30,7 +30,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ALU3.sol": "demo"
+			"contracts/ALU4.sol": "x"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -44,12 +44,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ALU3.sol": {
-			"keccak256": "0xc6aaaf0cccdac5961f30a9561180b09f0349ef4d497614052e7f2cee8d4239e9",
+		"contracts/ALU4.sol": {
+			"keccak256": "0x5b510145cf473dde6f0d53c0565ffde561f2d3258cc934cf0742314d83c5ca07",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4fd2271a0eca727363a865f609a225486938b039f3f07e40c0d5ecf7c98c7c0b",
-				"dweb:/ipfs/QmeFFELTm57JabZMJGH1XAGKzXQAuLtMn9rgAhYcUp42sV"
+				"bzz-raw://ebaeb5729accc196a0576102b75dd76c6a7b80fbd1c012ad2fa32871ff992dd2",
+				"dweb:/ipfs/QmYmf7z5UbdeUxVbz32r2E77WWNJdf9RhhEVEN6gUYG8pN"
 			]
 		}
 	},

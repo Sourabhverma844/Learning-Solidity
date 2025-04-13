@@ -33,7 +33,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/29_ALU1.sol": "demo1"
+			"contracts/ALU1.sol": "demo1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -47,7 +47,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/29_ALU1.sol": {
+		"contracts/ALU1.sol": {
 			"keccak256": "0xeb9955ed79fc20a833bf0ccfe6a73ccf6fccddc8bff9b2a680fbd95b918ceeb3",
 			"license": "GPL-3.0",
 			"urls": [
