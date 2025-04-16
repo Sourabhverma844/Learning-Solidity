@@ -6,15 +6,65 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "pay",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marks",
+						"type": "uint256"
+					}
+				],
+				"name": "insertMarks",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "marks",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "returnMarks",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -30,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ALU3.sol": "demo"
+			"contracts/26_Mapping_W_Array.sol": "demo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -44,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ALU3.sol": {
-			"keccak256": "0xc6aaaf0cccdac5961f30a9561180b09f0349ef4d497614052e7f2cee8d4239e9",
+		"contracts/26_Mapping_W_Array.sol": {
+			"keccak256": "0x7fa00c459117dac949bd764077b7a6dfee1106e9ae86778affb380eab8b735c8",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4fd2271a0eca727363a865f609a225486938b039f3f07e40c0d5ecf7c98c7c0b",
-				"dweb:/ipfs/QmeFFELTm57JabZMJGH1XAGKzXQAuLtMn9rgAhYcUp42sV"
+				"bzz-raw://d9fc77aeae83ac48c72da7e357183d53284c1714412e556f3d65bad457523c3e",
+				"dweb:/ipfs/QmPenFGCenQTSzydkHvUKtEw8wmujaSb5syEdBBGAiNqhB"
 			]
 		}
 	},

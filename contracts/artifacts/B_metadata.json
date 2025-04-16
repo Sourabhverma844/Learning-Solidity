@@ -6,6 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "DoNotPayMe",
+				"type": "error"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "receive"
 			}
@@ -23,7 +34,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ALU6.sol": "B"
+			"contracts/ALU7.sol": "B"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -37,12 +48,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ALU6.sol": {
-			"keccak256": "0xa500b0bf80f269a80b1694108d8caeec2cf5ab15eb9dacdf872866d74be49ec9",
+		"contracts/ALU7.sol": {
+			"keccak256": "0x32dc6e113f5904ea721f33d81c03e7df54bea4a81a58cf241a50d0bf5346eea6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1e705301304f80aa06ea334d73bcce2d324c13ea7133e9a63e6e4078d153223f",
-				"dweb:/ipfs/QmavA4RtFJMW1MwsE1pc7jdESh18BUP2ceu6iRrSZdvcn6"
+				"bzz-raw://69f259af05e979467c4ae3e7bf841dcfad42c50e273803d85b8f9ecec021bf1b",
+				"dweb:/ipfs/QmP1YpiNYmBpnCgbpGpv87ezp2aJXLmJqn8jE968BDDSXY"
 			]
 		},
 		"forge-std/console.sol": {

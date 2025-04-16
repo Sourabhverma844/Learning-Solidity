@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.19.2.
+ * Original file: /npm/forge@2.3.0/forge.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+module.exports=forge;var fu=require("fu"),fs=require("fs"),subarg=require("subarg");function isFile(r){return fs.existsSync(r)}function transformFiles(r){return function(n){return addTransforms(fs.createReadStream(n),r,n)}}function transformStdin(r){return process.stdin.resume(),addTransforms(process.stdin,r,null)}function addTransforms(r,n,s){return fu.foldl((function(r,n){return r.pipe(n(s))}),n,r).pipe(process.stdout)}function append(r,n,s){return r[n].push(s),r}function addTransformWithOptions(r){var n=require(r._[0]);return function(s){return n(s,r)}}function forge(r){var n=subarg(r),s=fu.foldl((function(r,n){return n._?append(r,"transforms",addTransformWithOptions(n)):isFile(n)?append(r,"files",n):append(r,"transforms",require(n))}),n._,{transforms:[],files:[]});return s.files.length?fu.map(transformFiles(s.transforms),s.files):transformStdin(s.transforms)}
+//# sourceMappingURL=/sm/abe7ed4e21d9f1f808ccfe5ac22f7e9046f812bcb30f100619dfa5898d0a1d30.map

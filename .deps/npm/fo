@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.19.2.
+ * Original file: /npm/fo@0.1.1/fo.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+var foQueue;function fo(){var e=foQueue;if(arguments.length)throw new TypeError("Arguments given to fo. Proper usage: fo()(arguments)");function u(e){return function(u){return u[e]}}function n(e){return function(u){return u.compose(e)}}function o(e){return function(u){return e.chain((function(e){return u}))}}function t(e){return function(u){return e.concat(u.negate())}}return foQueue=[],function(r){var f,i;if(!foQueue.length)return foQueue=e,r;if(!1===r)f=u("chain");else if(0===r)f=n;else if(r===Math.pow(2,(2<<foQueue.length)-3))f=u("compose");else if(r===Math.pow(2,foQueue.length*(foQueue.length+1)/2))f=u("ap");else if(r===(2<<foQueue.length)-2)f=u("concat");else if(2===r)f=u("map");else if(r<0)f=t;else{if(1!=r)throw console.log(r),foQueue=e,new Error("Couldn't determine fo operation. Could be ambiguous.");f=o}return i=function(e,u){var n,o=e[0];if(e.reduce)return e.reduce(u);for(n=1;n<e.length;n++)o=u(o,e[n]);return o}(foQueue,(function(e,u){return f(e).call(e,u)})),foQueue=e,i}}fo.unsafeSetValueOf=function(e){var u=e.valueOf;e.valueOf=function(){return void 0===foQueue?u.call(this):(foQueue.push(this),1<<foQueue.length)}},"undefined"!=typeof module&&(module.exports=fo);
+//# sourceMappingURL=/sm/85f1648af56cefefd00ae81c5a21213617299d27b0a7c7e27100f944f2180196.map
