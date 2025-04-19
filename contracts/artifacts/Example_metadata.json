@@ -7,16 +7,9 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "example3",
+				"name": "logplace",
 				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "example4",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -33,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/29_ALU1.sol": "Example"
+			"contracts/ALU9.sol": "Example"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -47,12 +40,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/29_ALU1.sol": {
-			"keccak256": "0xcdbe957cde42a9e77c8ccab74a7dd962c7353201c9052c397cb830b0eceefa5d",
+		"contracts/ALU9.sol": {
+			"keccak256": "0x78eb2315594d3a126e99b6c30b34bee350077b1f26a00280ee0c3cfaf192e263",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://820652986a19f938d7e55cd53ca8f08cfc09b70de1fe180afc55f76d4a021952",
-				"dweb:/ipfs/QmU2P6xmaWunWgC2Rdxo4DkezEH5iKLYzSboMeUzkfokjY"
+				"bzz-raw://8ce2147bcc6dbdf8a85f927170f6f8a206f0153da396423e182215967cf43d58",
+				"dweb:/ipfs/QmRT7dgWRfuaNzhi6d7ZSi8xNPLisBCZKFXfxRR3Peusp6"
+			]
+		},
+		"forge-std/console.sol": {
+			"keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+				"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
 			]
 		}
 	},

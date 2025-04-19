@@ -6,15 +6,11 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "bool",
-						"name": "mycondition",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"inputs": [],
+				"name": "logmsg",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -30,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/29_AUconstructor.sol": "example"
+			"contracts/ALU9.sol": "example"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -44,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/29_AUconstructor.sol": {
-			"keccak256": "0x0db70c7f70c7c2b1d039ebc347c562cbae68f3c3de0e98c0d867f91e440b625d",
+		"contracts/ALU9.sol": {
+			"keccak256": "0x0ea912019c2b0328f4e4317019e2102a55b8f299a033d5c1b9a644db36edca18",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://471599208745eeb0aa89592033cc00de883ac33d9f623059e645b434a6bfab49",
-				"dweb:/ipfs/QmbgmT7vnbFZvmzrzHLHdqky4tExGXGwfLr7vjmqEp9ptN"
+				"bzz-raw://b07b0cdbede708a0c9e20a2429bc4018495ddc37bd9f28efe7971dc83605c19e",
+				"dweb:/ipfs/QmbZZSnJbsdkavR3v2EvuLiVFwskzi4X6hhTgPHTUGqFYW"
 			]
 		},
 		"forge-std/console.sol": {

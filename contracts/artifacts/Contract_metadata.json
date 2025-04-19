@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ALU8.sol": "Contract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ALU8.sol": {
+			"keccak256": "0xa564b3dc823d46bfc49046c2a6734f92226da07d041e79892bf327133b267661",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed684ee4dddb4354e51208dd7c79805b50a2a813e9f4469ed1db076be15b3229",
+				"dweb:/ipfs/QmSNhD8t9sfE1g4QLnM6KtcuRLZY131UxDwFBzv4FtGaB1"
+			]
+		}
+	},
+	"version": 1
+}
